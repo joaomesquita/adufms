@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, span {font-family: 'Playfair Display', serif;}
+
+.session {padding: 50px 100px;}
+
+.cta, .banner {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.cta {padding: 25px 0;}
+.banner {padding: 70px 0;}
+
+.menus .card-img-overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.galeria .card-img-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a.nav-link:hover {color: #C43D3D !important;}
+a.color-red:hover {color: #a53333 !important;}
+.btn.bg-red:hover {
+    background-color: #a53333;
+    color: #fff !important;
+}
+
+.page-link {padding: 10px 18px;}
+.page-item.active a.page-link {
+    background-color: #C43D3D !important;
+    color: #fff !important;
+    border-color: #C43D3D;
+}
+.page-link.bg-red:hover {background-color: #a53333;}
+
+#mensagem {height: 100%;}
+
+.footer {background-color: #000;}
+
+.border-green:hover {
+    background-color: #11B442;
+    color: #fff;
+}
+
+.color-green:hover {color: #0d802f;}
+
+.border-green { border: 1px solid #11B442;}
+
+.bg-red {background-color: #C43D3D;}
+.bg-green {background-color: #11B442;}
+.bg-gray {background-color: #F3F3F3;}
+.bg-black {background-color: #222 !important;}
+
+.color-green {color: #11B442;}
+.color-red {color: #C43D3D;}
+.color-black {color: #222 !important;}
+.color-light {color: #fff !important;}
+
+.font-60 {font-size: 60px;}
+.font-40 {font-size: 40px;}
+.font-30 {font-size: 30px;}
+.font-27 {font-size: 27px;}
+.font-22 {font-size: 22px;}
+.font-18 {font-size: 18px;}
+.font-17 {font-size: 17px;}
+.font-16 {font-size: 16px;}
+.font-14 {font-size: 14px;}
+
+@media (max-width: 600px) {
+    .session {padding: 35px 0;}
+    .banner {
+        background-position: left !important;
+        padding: 30px 0;
+    }
+    .font-60 {font-size: 30px;}
+    .font-40 {font-size: 35px;}
+    .font-17 {font-size: 15px;}
+}
