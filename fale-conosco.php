@@ -36,11 +36,7 @@
                             <textarea class="form-control font-17 py-3" id="mensagem" placeholder="Mensagem *"></textarea>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-lg-3">
-                            <button class="btn bg-red color-light px-5 py-3 mt-4">Enviar</button>
-                        </div>
-                    </div>
+                    <button class="btn bg-red color-light px-5 py-3 mt-4">Enviar</button>
                 </form>
             </div>
         </div>

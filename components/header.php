@@ -21,7 +21,7 @@
             </button>
             <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarNav">
                 <ul class="navbar-nav align-items-center ms-auto">
-                    <li class="nav-item font-17 dropdown me-0 me-lg-3">
+                    <li class="nav-item font-17 dropdown text-center me-0 me-lg-3">
                         <a class="nav-link color-black dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">O Sindicato</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item color-black" href="institucional.php">Institucional</a></li>
@@ -46,14 +46,14 @@
                         <a class="nav-link color-black" href="fale-conosco.php">Fale Conosco</a>
                     </li>
                     <li class="nav-item font-17 me-0 me-lg-3">
-                        <a class="nav-link btn bg-red color-light px-4 mb-3 mb-lg-0" href="#">Filie-se</a>
+                        <a class="nav-link btn bg-red color-light px-4 mb-3 mb-lg-0" href="filie-se.php">Filie-se</a>
                     </li>
                     <div class="d-flex flex-row">
                         <li class="nav-item  me-2 me-lg-2">
-                            <a class="nav-link bg-black rounded py-1 px-2" href="#"><i class="bi bi-instagram color-light"></i></a>
+                            <a class="nav-link bg-black rounded py-1 px-2" href="#" target="_blank"><i class="bi bi-instagram color-light"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link bg-black rounded py-1 px-2" href="#"><i class="bi bi-facebook color-light"></i></a>
+                            <a class="nav-link bg-black rounded py-1 px-2" href="#" target="_blank"><i class="bi bi-facebook color-light"></i></a>
                         </li>
                     </div>
                 </ul>

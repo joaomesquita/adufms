@@ -1,6 +1,5 @@
 <?php include 'components/header.php' ?>
 
-
 <div class="session">
     <div class="container">
         <div class="col-12 col-lg-12 banner rounded" style="background: url('img/banner-home.png');">
